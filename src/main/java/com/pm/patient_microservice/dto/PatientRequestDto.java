@@ -24,7 +24,6 @@ public class PatientRequestDto {
     @NotNull(message = "Date of birth is required")
     private LocalDate dateOfBirth;
 
-    @NotNull(message = "Registered date is required")
     private LocalDate registeredDate;
 
 }
